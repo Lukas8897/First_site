@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <hr>
+
+    <nav>
+        Navigations Leiste: <br>
+        <a href="https://www.google.com">Google</a> <br>
+        <a href="lebenslauf.html">Login</a> <br>
+        <a href="index.html">Index(Startseite)</a> <br>
+        <a href="about.html">About</a> <br>
+        <a href="projekts.html">Projekts</a> <br>
+        <a href="resume.html">Resume</a> <br>
+    </nav>
+
+    <hr>
+    <br>
+    
+    <div>
+        <form action="login.php" method="post">
+            
+              
+            <textarea row="2" cols="45">Bitte Logen sie sich mit ihrem Benutzername und Passwort ein!</textarea> <br>
+                         
+            <label> Benutzername: <input type="text" name="username" placeholder="Max Mustermann" required> </label> <br> <br>
+             
+            <label> Passwort: <input type="password" name="password" placeholder="123" required> </label> <br><br>
+
+            <label>Eingeloggt bleiben<input type="checkbox" name="Eingelogt bleiben" id=""></label>  <br><br>
+            <button>Einloggen</button> 
+            
+                <select name="Status" id="Status">
+                <option value="Online">Online</option>
+                <option value="Offline">Offline</option>
+                <option value="Beschäftigt">Beschäftigt</option>
+
+            </select>
+
+            <footer>
+                <br><br>
+                <input  type="date">
+            </footer>
+
+        </form>
+    </div>
+</body>
+</html>

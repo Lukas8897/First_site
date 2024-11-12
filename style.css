@@ -1,0 +1,90 @@
+*{
+    /*   
+    border-style: dashed;
+    border-color:  red;
+    border-width: 1px;
+    */
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header{
+    background-color: #77a64e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav{
+    background-color: #333;
+}
+
+nav ul{
+    display: flex; 
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 2s;
+    transition: font-size 1s;
+    font-size: 14px;
+
+}
+
+nav ul li a:hover{
+    color: #77a64e;
+}
+
+#home{
+}
+  
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px 10px;
+    margin: 20px o;
+    gap: 15px;
+}
+
+
+.grid-item {
+    background-color: #77a64e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px ;
+    margin: 10px; 
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 0px 0px 9px 5px rgba(0,0,0,0);
+}
+
+#about{
+    margin: 10px;
+    text-align: center;
+}
+
+#services{
+    margin: 10px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
